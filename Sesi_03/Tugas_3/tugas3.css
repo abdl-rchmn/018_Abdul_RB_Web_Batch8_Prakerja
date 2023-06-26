@@ -1,0 +1,115 @@
+html {
+  background-color: rgb(15, 56, 91);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #2f96e6;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: #2982c7;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: #144875;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: #2976b0;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(16, 123, 216);
+}
+
+form input[type="submit"]:active {
+  background-color: rgb(133, 185, 231);
+}
+
+button {
+  background-color: #2976b0;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border: 2px solid #2976b0;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 400px;
+}
+
+.profile {
+  padding: 20px;
+}
+
+.profile-float {
+  float: left;
+  padding: 50px;
+}
+
+.button1 {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid rgb(133, 185, 231);
+}
+
+button:hover {
+  background-color: rgb(16, 123, 216);
+}
+
+button:active {
+  background-color: rgb(133, 185, 231);
+}
+
+.button-border {border-radius: 8px;}
+
+.img-profile {
+  border-radius: 50%;
+  border: 5px solid #2976b0;
+}
