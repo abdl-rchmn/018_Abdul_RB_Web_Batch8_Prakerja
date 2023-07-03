@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tipe Data Number di JS</title>
+    </head>
+    <body>
+        <h1>Tipe Data Number di JS</h1>
+
+        <div id="number"></div>
+        <div id="string"></div>
+        <div id="array"></div>
+        <hr>
+        <h3>Pelatihan Objek</h3>
+        <div id="object"></div>
+        <hr>
+        <h3>Aritmatika</h3>
+        <div id="penjumlahan"></div>
+        <div id="pengurangan"></div>
+        <div id="perkalian"></div>
+        <div id="pembagian"></div>
+        <div id="modulus"></div>
+        <hr>
+        <div id="func_string"></div>
+
+        <script>
+            var angka = 80;
+            document.getElementById("number").innerHTML = angka;
+
+            var string = "Hacktiv8 Sesi 5"
+            document.getElementById('string').innerHTML = string;
+
+            var array = ["mobil", "motor", "pesawat", "kapal"];
+            document.getElementById("array").innerHTML = array;
+            document.getElementById("array").innerHTML = array[0];
+
+            var object = {
+                nama: "hacktiv8 sesi 5",
+                lokasi: "online",
+                tahun: 2023,
+                peserta: 100,
+                instruktur: ["auy", "risky", "rahmat"],
+                fasilitas: ["kursi", "meja", "laptop"],
+            };
+            document.getElementById("object").innerHTML = object;
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>

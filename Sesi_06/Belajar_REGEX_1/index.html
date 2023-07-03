@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>RegEx</h1>
+
+        <script>
+            // step1
+            // var foo = /ab+c/;
+            //
+            // console.log(foo); // /ab+/c
+            // console.log(typeof foo); // object
+            //
+            // var bar = new regexp("ab+c");
+            //
+            // console.log(bar); // /ab+c/
+            // console.log(typeof bar); // object
+
+            // step2
+            // var foo = "Belajar JavaScript";
+            // var pola = /JavaScript/;
+            //
+            // console.log(pola.test(foo)); // True
+            // console.log(/Belajar/.test(foo)); // True
+            // console.log(/belajar/.text(foo)); // False
+
+            // step 3
+            //var foo = "1 jam sama dengan 60 menit, juga sama dengan 3600 detik";
+            //var pola = /\d+/g;
+            //
+            //console.log(pola.exec(foo)); // Array ["1"]
+            //console.log(pola.exec(foo)); // Array ["60"]
+            //console.log(pola.exec(foo)); // Array ["3600"]
+            //console.log(pola.exec(foo)); // null
+
+            //step 4
+            var foo = "Belajar JavaScript";
+            
+            console.log(/JavaScript/.test(foo))
+            console.log(/javascript/.test(foo))
+            console.log(/Belajar/.test(foo))
+            console.log(/belajar/.test(foo))
+            console.log(/Java/.test(foo))
+            console.log(/ajar/.test(foo))
+
+            //step5
+            //var pola = /[abcde]../;
+            //
+            //console.log(pola.test("abaa"));
+            //console.log(pola.test("fba"));
+            //console.log(pola.test("1dd"));
+            // console.log(pola.test("add"));
+            // console.log(pola.test(" dd"));
+            // console.log(pola.test("belajar"));
+
+        </script>
+    </body>
+</html>
