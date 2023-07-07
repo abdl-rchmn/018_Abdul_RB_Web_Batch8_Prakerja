@@ -1,0 +1,32 @@
+1. Buat Landing Page Portfolio
+	- Menu-menu Portofolio
+		1. About > Biodata
+		2. Experience
+		3. Education
+		4. Skill
+		5. Interest
+		6. Award
+	- Note: Jangan Dikurangkan, namun boleh Ditambahkan
+
+2. 	a. Boleh menggunakan Template
+	b. Boleh buat sendiri
+	c. Dari sesi sebelumnya
+
+3. 	a. buat Repo
+	b. Deployment
+	c. buat panduan
+	d. .zip > google classroom
+	e. Keterampilan
+
+--------------------------------------------------
+
+Panduan:
+Kode Peserta
+Nama Lengkap
+Sesi: 8 (Final Projects)
+
+Cara Menjalankan Aplikasi 
+	> Buka VS Code
+	> Buka file Code
+	> Run Live Server
+Isi Menu
